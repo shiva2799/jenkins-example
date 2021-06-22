@@ -50,11 +50,12 @@ pipeline {
         }
     }
 
-          stage('deployment stage') {
-              steps {
-                bat "mvn deploy"
-        }
-    }
+ // cannot deploy as techprimer has different account on the hosting platform and I don't have the credentials
+//           stage('deployment stage') {
+//               steps {
+//                 bat "mvn deploy"
+//         }
+//     }
 
   }
 
